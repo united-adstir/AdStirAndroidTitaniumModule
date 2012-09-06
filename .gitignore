@@ -10,3 +10,6 @@ lib/adstir.jar
 .DS_Store
 libs/*
 dist/*
+/build.properties
+
+
