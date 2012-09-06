@@ -1,0 +1,12 @@
+tmp
+bin
+build
+*.zip
+.apt_generated
+*.class
+*.pyc
+*.pyo
+lib/adstir.jar
+.DS_Store
+libs/*
+dist/*
