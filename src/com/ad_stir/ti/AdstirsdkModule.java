@@ -34,7 +34,7 @@ public class AdstirsdkModule extends KrollModule
 
 	@Override
 	public void onDestroy(android.app.Activity activity){
-		com.ngigroup.adstir.AdstirTerminate.init(activity);
+		com.ad_stir.AdstirTerminate.init(activity);
 		super.onDestroy(activity);
 	}
 	

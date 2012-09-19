@@ -19,7 +19,7 @@ import org.appcelerator.kroll.KrollDict;
 import org.appcelerator.kroll.annotations.Kroll;
 import org.appcelerator.titanium.proxy.TiViewProxy;
 import org.appcelerator.titanium.view.TiUIView;
-import com.ngigroup.adstir.AdstirView;
+import com.ad_stir.AdstirView;
 import android.app.Activity;
 
 @Kroll.proxy(creatableInModule=AdstirsdkModule.class)
@@ -30,7 +30,7 @@ public class AdstirProxy extends TiViewProxy
 		private AdstirView adstir;
 		public AdstirViewView(TiViewProxy proxy) {
 			super(proxy);
-			adstir = new com.ngigroup.adstir.AdstirView(proxy.getActivity(),media, spot);
+			adstir = new AdstirView(proxy.getActivity(), media, spot);
 			setNativeView(adstir);
 		}
 
