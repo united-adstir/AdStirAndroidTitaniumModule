@@ -6,10 +6,13 @@ build
 *.class
 *.pyc
 *.pyo
-lib/adstir.jar
 .DS_Store
+*~
 libs/*
 dist/*
 /build.properties
+
+lib/adstir.jar
+
 
 
