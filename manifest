@@ -2,12 +2,12 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.1
+version: 1.2
 apiversion: 2
-description: 1
-author: 1
-license: 1
-copyright: 1
+description: AdStir Android SDK Titanium Module 
+author: UNITED, inc.
+license: Apache License Version 2.0
+copyright: Copyright 2012-2013 UNITED, inc.
 
 
 # these should not be edited
@@ -15,4 +15,4 @@ name: adstirsdk
 moduleid: com.ad_stir.ti
 guid: 0eaf724d-fb1b-4182-ad38-57938b343de4
 platform: android
-minsdk: 2.0.1.GA
+minsdk: 3.0.2.GA
