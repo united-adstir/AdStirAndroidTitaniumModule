@@ -21,7 +21,7 @@ limitations under the License.
  * Please see the LICENSE included with this distribution for details.
  *
  */
-package com.ad_stir.ti;
+package com.adstir.ti;
 
 import org.appcelerator.kroll.KrollDict;
 import org.appcelerator.kroll.KrollProxy;

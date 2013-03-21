@@ -21,14 +21,14 @@ limitations under the License.
  * Please see the LICENSE included with this distribution for details.
  *
  */
-package com.ad_stir.ti;
+package com.adstir.ti;
 
 import org.appcelerator.kroll.KrollModule;
 import org.appcelerator.kroll.annotations.Kroll;
 
 import org.appcelerator.titanium.TiApplication;
 
-@Kroll.module(name="Adstirsdk", id="com.ad_stir.ti")
+@Kroll.module(name="Adstirsdk", id="com.adstir.ti")
 public class AdstirsdkModule extends KrollModule
 {
 

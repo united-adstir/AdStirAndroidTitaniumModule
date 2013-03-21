@@ -9,6 +9,6 @@
 		message="titanium.platform is missing. add build.properties file "
 		unless="titanium.platform"
 	/>
-
+ 
 	<import file="${titanium.platform}/../module/android/build.xml"/>
 </project>

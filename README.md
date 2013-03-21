@@ -30,6 +30,6 @@ Usage
   * android.platform
   * google.apis
   * android.ndk
-2. Copy AdStir SDK in libs directory.
+2. Copy AdStir SDK in lib directory.
 3. Run ant command.
 
