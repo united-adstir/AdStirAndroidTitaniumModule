@@ -36,10 +36,10 @@ public class AdstirProxy extends TiViewProxy
 {
 	private class AdstirViewView extends TiUIView
 	{
-		private com.ad_stir.AdstirView adstir;
+		private com.ad_stir.webview.AdstirWebView adstir;
 		public AdstirViewView(TiViewProxy proxy) {
 			super(proxy);
-			adstir = new com.ad_stir.AdstirView(proxy.getActivity(), media, spot);
+			adstir = new com.ad_stir.webview.AdstirWebView(proxy.getActivity(), media, spot);
 			setNativeView(adstir);
 		}
 
@@ -52,6 +52,7 @@ public class AdstirProxy extends TiViewProxy
 
 	private String media;
 	private int spot;
+	private long refreshInterval = com.ad_stir.webview.AdstirWebView.DEFAULT_INTERVAL;
 
 	// Constructor
 	public AdstirProxy()
@@ -80,6 +81,10 @@ public class AdstirProxy extends TiViewProxy
 		if (options.containsKey("spot")) {
 			String spotString = options.get("spot").toString();
 			spot = Integer.parseInt(spotString);
+		}
+		if (options.containsKey("refreshInterval")) {
+			String refreshIntervalString = options.get("refreshInterval").toString();
+			refreshInterval = Integer.parseInt(refreshIntervalString);
 		}
 	}
 	
